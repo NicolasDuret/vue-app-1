@@ -22,11 +22,15 @@ export default {
         this.cars.push({
             'name': 'ford',
             'model': 'fiesta',
-            'year': '2008',
+            'year': '2008'
         })
     }
   },
-  computed: {},
+  computed: {
+    counter () {
+      return this.cars.lenght
+    }
+  },
   mounted: {}
   }
 </script>
