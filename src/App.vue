@@ -4,19 +4,18 @@
       <span>Concession</span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
-      <hello></hello>
+      <cars name='ford' model='fiesta' year='2008'/>
     </main>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Cars from './components/cars'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Cars
   }
 }
 </script>
